@@ -1,10 +1,13 @@
+autotools_boost_template
+============
+
 This package is an GNU Autotools starter template project. It is a starting
 point for a C++ project using the Unit Test framework of the famous Boost
 library.
 
 
-ENVIRONMENT
------------
+## ENVIRONMENT
+
 Tested under:
 * Mac OS Sierra
 * Xcode 8.2.1
@@ -17,25 +20,28 @@ Tested under:
 	* pkg-config: stable 0.29.1 (bottled)
 
 
-HOWTO
------
+## HOWTO
+
 To build this program, start from the root folder:
+```shell
   ./bootstrap
   ./configure
   make
+```
 
 
-RUNNING
--------
+## RUNNING
+
 After compiling, run test program:
+```shell
   $ ./test/test
   Running 1 test case...
 
   *** No errors detected
+```
 
 
-LICENSE
--------
+## LICENSE
 
 Copyright 2017 Rick Lan
 
